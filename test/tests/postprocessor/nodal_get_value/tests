@@ -1,0 +1,7 @@
+[Tests]
+  [basic]
+    type = CSVDiff
+    input = nodal_get_value.i
+    csvdiff = nodal_get_value_out.csv
+  []
+[]
